@@ -43,7 +43,10 @@
   min-height: 740px;
   background-repeat: no-repeat;
 }
-.content {
+.hero .content {
+  max-width: 1190px;
+  display: flex;
+  justify-content: space-between;
   padding-top: 95px;
   padding-bottom: 109px;
 }
@@ -79,11 +82,7 @@
   line-height: 150%;
   padding-bottom: 36px;
 }
-.hero .content {
-  max-width: 1190px;
-  display: flex;
-  justify-content: space-between;
-}
+
 /* Tab Responsive */
 @media (max-width: 991px) {
   .hero {
@@ -91,15 +90,12 @@
   }
   .hero .content {
     align-items: center;
-  }
-  .content {
     padding-top: 80px;
     padding-bottom: 80px;
   }
   .hero_text {
     padding-top: unset;
   }
-
   .sup_heading {
     font-size: 18px;
   }
@@ -157,7 +153,6 @@
   .hero_p {
     padding-bottom: 20px;
   }
-
   .hero_image img {
     max-width: 230px;
   }
